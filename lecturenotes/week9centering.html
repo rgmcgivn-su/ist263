@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"
+        <title>Centering</title>
+        <style>
+            .first {text-align: center;}
+            .second {background-color: #ff7b00;
+            width: 50%;
+            margin: 0 auto; /* 0 is top and bottom, auto is equal space left and right */
+            }
+            .third {display: flex;
+            justify-content: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Centering</h1>
+        <h2>text-align</h2>
+        <p class="first">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, animi. Quis ex iste unde ea est natus dolore explicabo libero inventore! Maxime deserunt inventore accusantium laborum laudantium saepe culpa facere.</p>
+
+        <h2>block stuff centering</h2>
+        <p class="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quae accusantium, consectetur nobis ipsum officiis ullam provident dignissimos explicabo culpa sequi beatae soluta obcaecati inventore laudantium suscipit minima maiores laboriosam.</p>
+
+        <h2>flex box hack</h2> 
+        <p>this have only works with content smaller than width. if it fills up the whole width of the page it will not work.</p>
+        <p class="third">Lorem ipsum dolor</p>
+    </body>
+</html>
