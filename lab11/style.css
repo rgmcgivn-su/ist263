@@ -1,0 +1,76 @@
+body {font-family: sans-serif;
+background-color: #f9f2ec;
+text-emphasis-color: #0a0b0a;
+}
+p {color: #0a0b0a;}
+h1, h2 {color: #0a0b0a;}
+.evenrow {background-color: #408000;}
+h1 {font-size: 1em;
+color: #0a0b0a
+}
+h2 {font-size: .75em;
+color:#0a0b0a;
+}
+ol {color: #6699ff;}
+a {color:#0a0b0a}
+nav {background-color: #0a0b0a}
+nav a {color: #6699ff;
+    margin-bottom: 10px;}
+nav a:hover {background-color: #d2e0fb;}
+nav {padding: 10px;}
+nav {margin-bottom: 30px;}
+.copy {float: left;}
+.quote {float: right;}
+.image {float: left;}
+
+.row1, .row2 {display: flex;
+    border-radius: 1em;}
+.row1 {background-color: aliceblue;
+    flex: 1;
+    padding: 10px;
+    margin: 10px;}
+.row2 {background-color: #d2e0fb;
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.column2 {text-align: center;
+    flex: 1;
+    padding: 10px;
+    margin: 10px;}
+.column4 {flex: 1;
+    padding: 10px;
+    margin: 10px;}
+
+.textalign {text-align: center;}
+.row3 {display: flex;
+    margin: 30px;
+    padding: 30px;
+    justify-content: space-around;
+    flex: 7;}
+.otherskills {background-color: #d2e0fb;
+    color: #504099;
+    border-radius: 2em;
+    flex: 1;
+    margin: 30px;
+    padding: 30px;}
+.flexbox2 {display: flex;
+    margin: 30px;
+    padding: 30px;}
+.blurb {text-align: left;}
+
+.bannerimage {max-width: 100%}
+
+@media only screen and (max-width: 600px) {
+    nav a {display: block;
+    max-width: 100;}
+    span {display: none;}
+}
+@media only screen and (min-width: 601px) {
+
+}
+
+
+
