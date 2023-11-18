@@ -1,0 +1,145 @@
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    header {
+        text-align: center;
+    }
+    .main-box {
+        padding: 10px
+    }
+    .mini-box {
+        margin-bottom: 10px;
+    }
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #E4E4De;
+    color: #1B1B1B;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #595f39;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+header h1 {
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.main-box {
+    max-width: 100%;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #0f0f0f;
+    background-color: #c4c5ba;
+}
+
+h2 {
+    text-align: center;
+}
+
+.image-box {
+    display: flex;
+    margin-top: 20px;
+    background-color: #c4c5ba;
+}
+
+img {
+    max-width: 20%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.text-box {
+    flex: 1;
+}
+
+.text-box p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+h3 {
+    text-align: center;
+}
+
+.big-box {
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #0f0f0f;
+    background-color: #c4c5ba;
+}
+
+.mini-box {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #0f0f0f;
+}
+
+.mini-box img {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+    border: none;
+}
+
+.mini-box p {
+    text-align: left;
+}
+
+.flex-container {
+    display: flex;
+    background-color: #E4E4De;
+}
+
+.flex-item {
+    flex: 1;
+    margin: 20px;
+    background-color: #c4c5ba;
+}
+
+.flex-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 150px;
+}
+
+.flex-item ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.flex-item ul li {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+footer {
+    background-color: #595f39;
+    color: #E4E4De;
+    align-items: left;
+}
+
+footer p {
+    color: #ffffff;
+    padding: 10px;
+}
