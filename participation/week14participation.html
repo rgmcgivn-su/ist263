@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 14 Participation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <style>
+        #modal {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 200px;
+            background-color: #ffffff;
+            border: 1px solid #000000;
+            margin-left: -100px;
+            margin-top: -100px;
+            display: none;
+            padding: 5px;
+        }
+        #subscribebutton {font-family: 'Shadows Into Light', cursive;}
+        #closebutton {
+            text-align: right;
+            margin: 0px
+        }
+    </style>
+    <script>
+        function openModal () {
+            document.getElementById('modal').style.display = 'block';
+        }
+        function closeModal () {
+            document.getElementById('modal').style.display = 'none';
+        }
+    </script>
+</head>
+<body>
+    <h1 id="subscribebutton" onclick="openModal();">Subscribe to Our Newsletter</h1>
+    <div id="modal">
+        <p id="closebutton" onclick="closeModal();">X</p>
+        <form>
+            <label>Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label>Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <input type="submit" value="Subscribe">
+        </form> 
+    </div> 
+</body>
+</html>

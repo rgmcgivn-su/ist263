@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modals</title>
+    <style>
+        #container {
+            width: 800px;
+            margin: 0 auto;
+            position: relative
+        }
+        #modal {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 20px;
+            background-color: #ffffff;
+            border: 1px solid #000000;
+            margin-left: -100px;
+            margin-top: -100px;
+            display: none;
+            padding: 5px;
+        }
+        #subscribe {
+            background-color: #e9967a;
+            padding: 5px;
+            width: 250px;
+            text-align: center;
+        }
+        #closebutton {
+            text-align: right;
+            margin: 0px
+        }
+    </style>
+    <script>
+        function openModal () {
+            document.getElementById('modal').style.display = 'block';
+        }
+        function closeModal () {
+            document.getElementById('modal').style.display = 'none';
+        }
+    </script>
+</head>
+<body>
+    <div id="container">
+        <img src="https://laferger.github.io/ist263/images/cupcakes.jpg" alt="banner of cupcakes">
+        <h1>Desserts</h1>
+        <p>Donut cookie bonbon powder apple pie biscuit. Lollipop jelly-o danish liquorice caramels biscuit cheesecake croissant wafer. Halvah apple pie cake topping apple pie. Bear claw ice cream sesame snaps marzipan fruitcake sesame snaps jelly-o gummies jelly beans. Sesame snaps oat cake cupcake sweet toffee. Gummi bears chocolate gummies tiramisu croissant chocolate cake. Gummi bears cake sesame snaps oat cake chocolate bar candy canes sweet. Chupa chups gummi bears chocolate bar bonbon cheesecake powder apple pie sweet.</p>
+        <p>Shortbread cake macaroon pie biscuit pudding cake sesame snaps apple pie. Apple pie croissant jelly-o tiramisu cupcake. Bonbon cotton candy soufflé sweet pie oat cake dessert. Dragée shortbread icing topping liquorice. Croissant ice cream marzipan tart carrot cake gingerbread chocolate tart croissant. Topping pastry dessert bonbon powder. Tart pie apple pie marshmallow tart wafer candy fruitcake tootsie roll. Sugar plum powder chocolate bar sesame snaps muffin biscuit biscuit. Oat cake chocolate jelly beans brownie lemon drops.</p>
+        <p>Lollipop dragée donut apple pie tiramisu liquorice gummi bears. Chocolate oat cake caramels jelly beans sugar plum. Candy cake sweet roll oat cake brownie marzipan soufflé ice cream apple pie. Sweet roll dragée dessert tootsie roll jujubes shortbread tart cupcake. Sweet sugar plum jelly chocolate lollipop dragée. Shortbread gummi bears lemon drops cake dragée dragée. Cotton candy cake dessert ice cream jelly icing.</p>
+        <p id="subscribe" onclick="openModal();">Subscribe to Our Mailing List</p>
+    </div>
+
+    <div id="modal">
+        <p id="closebutton" onclick="closeModal();">X</p>
+        <form>
+            <label>Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label>Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <input type="submit" value="Subscribe">
+        </form> 
+    </div>  
+</body>
+</html>
