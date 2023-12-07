@@ -30,21 +30,23 @@ header h1 {
     padding: 20px;
     border: 2px solid #0f0f0f;
     background-color: #c4c5ba;
+    overflow: hidden;
 }
 
 h2 {
     text-align: center;
 }
 
-.image-box {
-    display: flex;
-    margin-top: 20px;
-    background-color: #c4c5ba;
+.firstimage {
+    float: left;
+}
+
+.clear {
+    clear: both;
 }
 
 img {
-    max-width: 20%;
-    height: auto;
+    /* height: auto; */
     margin-right: 20px;
 }
 
@@ -55,6 +57,7 @@ img {
 .text-box p {
     margin-bottom: 15px;
     line-height: 1.6;
+    text-align: left;
 }
 
 h3 {
