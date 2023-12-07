@@ -3,13 +3,16 @@ background-color: #f9f2ec;
 text-emphasis-color: #0a0b0a;
 }
 p {color: #0a0b0a;}
-h1, h2 {color: #0a0b0a;}
+h1, h2 {color: #0a0b0a;
+    font-family: 'Hedvig Letters Serif', serif;}
 .evenrow {background-color: #408000;}
 h1 {font-size: 1em;
-color: #0a0b0a
+color: #0a0b0a;
+font-family: 'Hedvig Letters Serif', serif;
 }
 h2 {font-size: .75em;
 color:#0a0b0a;
+font-family: 'Hedvig Letters Serif', serif;
 }
 ol {color: #0a0b0a;}
 a {color:#0a0b0a}
