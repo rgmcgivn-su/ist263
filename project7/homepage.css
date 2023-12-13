@@ -62,6 +62,7 @@ img {
 
 h3 {
     text-align: center;
+    color: #283618;
 }
 
 .big-box {
@@ -72,6 +73,10 @@ h3 {
     padding: 20px;
     border: 2px solid #0f0f0f;
     background-color: #c4c5ba;
+}
+
+.big-box h2 {
+    color: #595f39;
 }
 
 .mini-box {
@@ -101,12 +106,13 @@ h3 {
     flex: 1;
     margin: 20px;
     background-color: #c4c5ba;
+    border: 2px solid #0f0f0f;
 }
 
 .flex-item img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 .flex-item ul {
